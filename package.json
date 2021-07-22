@@ -1,0 +1,34 @@
+{
+  "name": "meeks.npm.version_incrementer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "bin": {
+    "npm-increment-version": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/micke.shi/meeks.npm.version_incrementer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/micke.shi/meeks.npm.version_incrementer/issues"
+  },
+  "homepage": "https://gitlab.com/micke.shi/meeks.npm.version_incrementer#readme",
+  "dependencies": {
+    "@types/fs-extra": "^9.0.12",
+    "@types/yargs": "^17.0.2",
+    "fs-extra": "^10.0.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.0"
+  }
+}
