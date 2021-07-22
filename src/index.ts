@@ -79,4 +79,7 @@ if (args.step <= 0) {
   json.version = numberStringList.join(".");
 
   await fs.writeFile(packageJsonPath, JSON.stringify(json, null, 4));
+
+  console.log("Version increased to");
+  console.log(json.version);
 })();
