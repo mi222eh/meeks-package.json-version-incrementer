@@ -1,5 +1,5 @@
 {
-  "name": "meeks.npm.version_incrementer",
+  "name": "meeks-package.json-version-incrementer",
   "version": "1.0.0",
   "description": "",
   "main": "./bin/index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/micke.shi/meeks.npm.version_incrementer.git"
+    "url": "git+https://github.com/mi222eh/meeks-package.json-version-incrementer"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/micke.shi/meeks.npm.version_incrementer/issues"
+    "url": "https://github.com/mi222eh/meeks-package.json-version-incrementer/issues"
   },
-  "homepage": "https://gitlab.com/micke.shi/meeks.npm.version_incrementer#readme",
+  "homepage": "https://github.com/mi222eh/meeks-package.json-version-incrementer#readme",
   "dependencies": {
     "@types/fs-extra": "^9.0.12",
     "@types/yargs": "^17.0.2",
